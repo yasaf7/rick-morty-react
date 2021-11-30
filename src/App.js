@@ -1,12 +1,10 @@
 import './App.css';
-import HeaderResposive from './Components/HeaderResponsive';
-import MainSection from './Components/MainSection';
+import Routes from './Routes';
 
 function App() {
   return (
     <div className="App">
-      <HeaderResposive />
-      <MainSection/>
+      <Routes/>
     </div>
   );
 }
